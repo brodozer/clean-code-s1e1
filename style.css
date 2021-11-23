@@ -1,11 +1,11 @@
 /* reset style */
 input, button {
-  outline:none;
+  outline: none;
 }
 
 ul {
-  margin:0;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Basic Style */
@@ -30,7 +30,7 @@ ul {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
   .header {
     text-align: center;
@@ -49,7 +49,7 @@ ul {
 
 .btn {
   background: none;
-  border: 0px;
+  border: 0;
   color: #888;
   font-size: 15px;
   width: 60px;
@@ -149,14 +149,14 @@ ul {
 
 /* Edit Task */
 .task-list .task .task-input {
-  display:none
+  display: none
 }
 
 .task-list .task.edit-mode .task-input {
   display:inline-block;
-  width:224px
+  width: 224px
 }
 
 .task-list .task.edit-mode .task-label {
-  display:none;
+  display: none;
 }
