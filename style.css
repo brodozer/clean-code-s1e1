@@ -37,6 +37,7 @@ ul {
   }
 
 }
+
 .main {
   display: block;
   width: 500px;
@@ -76,7 +77,7 @@ ul {
 .task-input {
   width: 226px;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-input {
@@ -143,18 +144,18 @@ ul {
 
 /* Completed */
 #completed-list .task-label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-list .task .task-input {
-  display: none
+  display: none;
 }
 
 .task-list .task.edit-mode .task-input {
   display:inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task-list .task.edit-mode .task-label {
